@@ -12,15 +12,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{04FFD4
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conglomo.MacJava.Sample", "Conglomo.MacJava.Sample\Conglomo.MacJava.Sample.csproj", "{652E4C1B-72E9-459B-A561-D6F1D26C0E12}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
+		SccNumberOfProjects = 3
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs12
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = Conglomo.MacJava\\Conglomo.MacJava.csproj
 		SccProjectName1 = Conglomo.MacJava
 		SccLocalPath1 = Conglomo.MacJava
+		SccProjectUniqueName2 = Conglomo.MacJava.Sample\\Conglomo.MacJava.Sample.csproj
+		SccProjectName2 = Conglomo.MacJava.Sample
+		SccLocalPath2 = Conglomo.MacJava.Sample
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +36,10 @@ Global
 		{4DAACA8A-8DAB-41F9-A220-A0E4DD579C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DAACA8A-8DAB-41F9-A220-A0E4DD579C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DAACA8A-8DAB-41F9-A220-A0E4DD579C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652E4C1B-72E9-459B-A561-D6F1D26C0E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652E4C1B-72E9-459B-A561-D6F1D26C0E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652E4C1B-72E9-459B-A561-D6F1D26C0E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652E4C1B-72E9-459B-A561-D6F1D26C0E12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
