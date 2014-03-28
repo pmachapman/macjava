@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.user
+*.suo
+/Conglomo.MacJava/Conglomo.MacJava/bin
+/Conglomo.MacJava/Conglomo.MacJava/obj
+/Conglomo.MacJava/Conglomo.MacJava.Sample/bin
+/Conglomo.MacJava/Conglomo.MacJava.Sample/obj
+/Conglomo.MacJava/packages
