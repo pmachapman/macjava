@@ -120,5 +120,45 @@ namespace Conglomo.MacJava
         /// The view data container.
         /// </value>
         public IViewDataContainer ViewDataContainer { get; internal set; }
+
+        /// <summary>
+        /// Gets the web view page.
+        /// </summary>
+        /// <value>
+        /// The web view page.
+        /// </value>
+        private WebViewPage WebViewPage
+        {
+            get
+            {
+                return this.ViewDataContainer as WebViewPage;
+            }
+        }
+
+        /// <summary>
+        /// Includes the specified JavaScript source files.
+        /// </summary>
+        /// <param name="source">The source.</param>
+        /// <returns>The HTML to include the JavaScript source file.</returns>
+        public MvcHtmlString Include(string source)
+        {
+            // If we have a source file specified
+            if (!string.IsNullOrEmpty(source))
+            {
+                // Resolve the URL
+                if (this.WebViewPage != default(WebViewPage))
+                {
+                    source = this.WebViewPage.Url.Content(source);
+                }
+
+                // Return the script tag
+                return JavaScript.Include(source);
+            }
+            else
+            {
+                // Return an empty script tag
+                return new MvcHtmlString(string.Empty);
+            }
+        }
     }
 }

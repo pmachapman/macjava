@@ -48,6 +48,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DynamicViewData.cs" />
+    <Compile Include="JavaScript.cs" />
+    <Compile Include="JavaScriptEnabledWebViewPage{TModel}.cs" />
+    <Compile Include="JavaScriptEnabledWebViewPage.cs" />
     <Compile Include="JavaScriptHelper.cs">
       <ExcludeFromStyleCop>False</ExcludeFromStyleCop>
     </Compile>

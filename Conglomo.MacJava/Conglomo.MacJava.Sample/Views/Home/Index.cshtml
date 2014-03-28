@@ -1,6 +1,11 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+@using Conglomo.MacJava
+@section scripts {
+    @JavaScript.Include("http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js")
+    @JavaScript.Include("~/Scripts/Script.js")
+}
 
 <div class="jumbotron">
     <h1>ASP.NET</h1>
