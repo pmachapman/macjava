@@ -1,0 +1,20 @@
+﻿@using Conglomo.MacJava
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    @JavaScript.Include("http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js")
+    @JavaScript.Include(Url.Content("~/Scripts/Script.js"))
+</head>
+<body>
+    <div>
+    @RenderBody()
+    </div>
+</body>
+</html>
