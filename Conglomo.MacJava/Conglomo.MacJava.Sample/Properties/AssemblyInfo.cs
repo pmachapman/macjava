@@ -1,6 +1,6 @@
 ﻿// -----------------------------------------------------------------------
 // <copyright file="AssemblyInfo.cs" company="Peter Chapman">
-// Copyright 2014 Peter Chapman. See http://macjava.codeplex.com/license for licence details.
+// Copyright 2015 Peter Chapman. See http://macjava.codeplex.com/license for licence details.
 // </copyright>
 // -----------------------------------------------------------------------
 
@@ -18,7 +18,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MacJava Sample Website")]
-[assembly: AssemblyCopyright("Copyright 2014 Peter Chapman. See http://macjava.codeplex.com/license for licence details.")]
+[assembly: AssemblyCopyright("Copyright 2015 Peter Chapman. See http://macjava.codeplex.com/license for licence details.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
