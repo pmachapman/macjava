@@ -5,6 +5,7 @@
 *.Cache
 *.user
 *.suo
+.vs
 Conglomo.MacJava/bin
 Conglomo.MacJava/obj
 Conglomo.MacJava.Sample/bin
