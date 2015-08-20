@@ -31,10 +31,13 @@ namespace Conglomo.MacJava.Sample.Areas.Test
         /// <param name="context">Encapsulates the information that is required in order to register the area.</param>
         public override void RegisterArea(AreaRegistrationContext context) 
         {
-            context.MapRoute(
-                "Test_default",
-                "Test/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional });
+            if (context != default(AreaRegistrationContext))
+            {
+                context.MapRoute(
+                    "Test_default",
+                    "Test/{controller}/{action}/{id}",
+                    new { action = "Index", id = UrlParameter.Optional });
+            }
         }
     }
 }
