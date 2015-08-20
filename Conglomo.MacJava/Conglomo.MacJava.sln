@@ -1,16 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2015
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conglomo.MacJava", "Conglomo.MacJava\Conglomo.MacJava.csproj", "{4DAACA8A-8DAB-41F9-A220-A0E4DD579C09}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{04FFD432-CA6C-4402-9484-4E4A26ADEFB3}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conglomo.MacJava.Sample", "Conglomo.MacJava.Sample\Conglomo.MacJava.Sample.csproj", "{652E4C1B-72E9-459B-A561-D6F1D26C0E12}"
 EndProject
