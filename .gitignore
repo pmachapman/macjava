@@ -5,10 +5,10 @@
 *.Cache
 *.user
 *.suo
-/Conglomo.MacJava/Conglomo.MacJava/bin
-/Conglomo.MacJava/Conglomo.MacJava/obj
-/Conglomo.MacJava/Conglomo.MacJava.Sample/bin
-/Conglomo.MacJava/Conglomo.MacJava.Sample/obj
-/Conglomo.MacJava/packages
+Conglomo.MacJava/bin
+Conglomo.MacJava/obj
+Conglomo.MacJava.Sample/bin
+Conglomo.MacJava.Sample/obj
+packages
 *.old
-Conglomo.MacJava/Conglomo.MacJava.sln.GhostDoc.xml
+*.GhostDoc.xml

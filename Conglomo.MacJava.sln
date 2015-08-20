@@ -8,18 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conglomo.MacJava.Sample", "Conglomo.MacJava.Sample\Conglomo.MacJava.Sample.csproj", "{652E4C1B-72E9-459B-A561-D6F1D26C0E12}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs12
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Conglomo.MacJava\\Conglomo.MacJava.csproj
-		SccProjectName1 = Conglomo.MacJava
-		SccLocalPath1 = Conglomo.MacJava
-		SccProjectUniqueName2 = Conglomo.MacJava.Sample\\Conglomo.MacJava.Sample.csproj
-		SccProjectName2 = Conglomo.MacJava.Sample
-		SccLocalPath2 = Conglomo.MacJava.Sample
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
